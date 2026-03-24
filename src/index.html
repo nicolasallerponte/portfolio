@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="assets/na_avatar_black.png" media="(prefers-color-scheme: light)" />
+    <link rel="icon" type="image/png" href="assets/na_avatar_white.png" media="(prefers-color-scheme: dark)" />
+
+    <title>Nicolás Aller Ponte | Data Scientist & AI Engineer</title>
+    <meta name="keywords" content="nicolasallerponte, nicolas aller ponte, data science, AI, machine learning, deep learning, portfolio, A Coruña" />
+    <meta name="description" content="Nicolás Aller Ponte — Data Scientist & AI Engineer based in A Coruña, Spain. Specialising in deep learning, computer vision, and data engineering." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="styles.scss" />
+    <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  </head>
+
+  <body>
+    <div id="top"></div>
+
+    <!-- Language toggle -->
+    <button id="lang-toggle" aria-label="Switch language" title="Switch language">
+      <span id="lang-label">ES</span>
+    </button>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <nav class="hero-nav load-hidden">
+        <div class="container d-flex justify-content-between align-items-center">
+          <div class="nav-links">
+            <a href="#top" data-en="Home" data-es="Inicio">Home</a>
+            <a href="#about" data-en="About" data-es="Sobre mí">About</a>
+            <a href="#projects" data-en="Projects" data-es="Proyectos">Projects</a>
+            <a href="#awards" data-en="Awards" data-es="Reconocimientos">Awards</a>
+            <a href="#contact" data-en="Contact" data-es="Contacto">Contact</a>
+          </div>
+          <a id="cv-btn" class="cta-btn cta-btn--nav" href="assets/cv/cv_en.pdf" target="_blank">CV</a>
+        </div>
+      </nav>
+      <div class="container text-center">
+        <div class="hero-logo load-hidden">
+          <img src="assets/logo.png" alt="Logo" class="hero-logo__img" />
+        </div>
+        <h1 class="hero-title load-hidden">
+          <span data-en="Hi, my name is" data-es="Hola, soy">Hi, my name is</span>
+          <span class="text-color-main"> Nicolás Aller Ponte</span>
+          <br />
+          <span data-en="Data Science & Engineering Student." data-es="Estudiante de Ciencia e Ingeniería de Datos.">Data Science & Engineering Student.</span>
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about" data-en="Know more" data-es="Saber más">Know more</a>
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden" data-en="About me" data-es="Sobre mí">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Nicolás Aller Ponte"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text"
+                data-en="I'm a Data Science &amp; Engineering student at Universidade da Coruña and Research Assistant at the Inditex-UDC AI Chair in Green Algorithms, where I develop feature-selection systems for AI models. I've also worked as an AI Engineer at Gradiant, building computer vision pipelines for car damage detection."
+                data-es="Soy estudiante de Ciencia e Ingeniería de Datos en la Universidade da Coruña y Ayudante de Investigación en la Cátedra Inditex-UDC de IA en Algoritmos Verdes, donde desarrollo sistemas de selección de características para modelos de IA. También trabajé como AI Engineer en Gradiant, construyendo pipelines de visión artificial para detección de daños en vehículos.">
+                I'm a Data Science &amp; Engineering student at Universidade da Coruña and Research Assistant at the Inditex-UDC AI Chair in Green Algorithms, where I develop feature-selection systems for AI models. I've also worked as an AI Engineer at Gradiant, building computer vision pipelines for car damage detection.
+              </p>
+              <p class="about-wrapper__info-text"
+                data-en="My stack spans the full data lifecycle — from HPC and parallel computing (C/C++, CUDA, MPI) to deep learning (PyTorch, TensorFlow), data engineering (Spark, SQL, Docker, AWS/GCP), and NLP/Computer Vision."
+                data-es="Mi stack abarca todo el ciclo de vida del dato — desde HPC y computación paralela (C/C++, CUDA, MPI) hasta deep learning (PyTorch, TensorFlow), ingeniería de datos (Spark, SQL, Docker, AWS/GCP) y NLP/Computer Vision.">
+                My stack spans the full data lifecycle — from HPC and parallel computing (C/C++, CUDA, MPI) to deep learning (PyTorch, TensorFlow), data engineering (Spark, SQL, Docker, AWS/GCP), and NLP/Computer Vision.
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  id="about-cv-btn"
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/cv/cv_en.pdf"
+                >
+                  CV
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text" data-en="Projects" data-es="Proyectos">Projects</h2>
+
+          <!-- Project 1 — Outfit Intelligence -->
+          <div class="row project-row">
+            <div class="col-lg-6 col-md-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Outfit Intelligence — HackUDC 2026 🏆</h3>
+                <div>
+                  <p class="mb-4"
+                    data-en="Double award-winner at HackUDC 2026 (1st Best Open Source AI, 2nd Inditex-Tech). Multi-layer visual search pipeline with YOLOv8, SigLIP-384 &amp; DINOv2 ensemble over 27k+ fashion products, served via FAISS + FastAPI."
+                    data-es="Doble premio en HackUDC 2026 (1.º Mejor IA Open Source, 2.º Reto Inditex-Tech). Pipeline de búsqueda visual multicapa con YOLOv8, SigLIP-384 y DINOv2 sobre 27k+ productos de moda, servido con FAISS + FastAPI.">
+                    Double award-winner at HackUDC 2026 (1st Best Open Source AI, 2nd Inditex-Tech). Multi-layer visual search pipeline with YOLOv8, SigLIP-384 &amp; DINOv2 ensemble over 27k+ fashion products, served via FAISS + FastAPI.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--github"
+                  href="https://github.com/nicolasallerponte/HackUDC2026"
+                >
+                  <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/nicolasallerponte/HackUDC2026" target="_blank">
+                  <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="assets/project_outfit.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Project 2 — SmartPorts -->
+          <div class="row project-row">
+            <div class="col-lg-6 col-md-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title" data-en="SmartPorts Ship Classification" data-es="SmartPorts Ship Classification">SmartPorts Ship Classification</h3>
+                <div>
+                  <p class="mb-4"
+                    data-en="Port CCTV image classification for ship detection and docking status using CNN and ResNet18 with stratified K-Fold cross-validation. Trained on real port imagery datasets."
+                    data-es="Clasificación de imágenes de CCTV portuario para detección de barcos y estado de atraque, usando CNN y ResNet18 con validación cruzada K-Fold estratificada. Entrenado sobre datasets reales de puertos.">
+                    Port CCTV image classification for ship detection and docking status using CNN and ResNet18 with stratified K-Fold cross-validation. Trained on real port imagery datasets.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--github"
+                  href="https://github.com/nicolasallerponte/smartports-ship-classification"
+                >
+                  <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/nicolasallerponte/smartports-ship-classification" target="_blank">
+                  <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="assets/project_smartports_new.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Project 3 — MatrixLens -->
+          <div class="row project-row">
+            <div class="col-lg-6 col-md-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">MatrixLens</h3>
+                <div>
+                  <p class="mb-4"
+                    data-en="Cache-aware audit tool for matrix multiplication kernels. Simulates L1 cache behavior (LRU, set-associative) to visualize how tiling strategies eliminate cache misses in high-performance computing."
+                    data-es="Herramienta de auditoría para kernels de multiplicación de matrices. Simula el comportamiento de la caché L1 (LRU, asociativa por conjuntos) para visualizar cómo las estrategias de tiling eliminan fallos de caché.">
+                    Cache-aware audit tool for matrix multiplication kernels. Simulates L1 cache behavior (LRU, set-associative) to visualize how tiling strategies eliminate cache misses in high-performance computing.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--github"
+                  href="https://github.com/nicolasallerponte/MatrixLens"
+                >
+                  <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/nicolasallerponte/MatrixLens" target="_blank">
+                  <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="assets/project_matrixlens.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <div class="projects-more load-hidden text-center mt-5">
+            <p class="projects-more__text" data-en="Check out more of my work on GitHub" data-es="¡Consulta más de mi trabajo en GitHub!">
+              Check out more of my work on GitHub
+            </p>
+            <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/nicolasallerponte">
+              GitHub Profile
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Awards Section **** -->
+    <section id="awards">
+      <div class="container">
+        <h2 class="section-title" data-en="Awards" data-es="Reconocimientos">Awards</h2>
+        <div class="row awards-wrapper">
+          <div class="col-lg-6 col-md-12">
+            <div class="awards-wrapper__text load-hidden">
+              <p class="mb-4"
+                data-en="On March 1, 2026, we presented our project at HackUDC for the InditexTech challenge. Following a stellar presentation before the Inditex team and GPUL, we were honored with the 1st Prize for Best Use of Open Source AI and the 2nd Prize in the Inditex-Tech Challenge."
+                data-es="El 1 de marzo de 2026 presentamos nuestro proyecto en HackUDC para el reto de InditexTech. Tras una sólida presentación ante el equipo de Inditex y el GPUL, recibimos el primer premio al Mejor Uso de IA Open Source y el segundo premio en el Reto Inditex-Tech.">
+                On March 1, 2026, we presented our project at HackUDC for the InditexTech challenge. Following a stellar presentation before the Inditex team and GPUL, we were honored with the 1st Prize for Best Use of Open Source AI and the 2nd Prize in the Inditex-Tech Challenge.
+              </p>
+              <div class="awards-highlights">
+                <div class="award-item">
+                  <span class="award-icon">🥇</span>
+                  <span data-en="1st Prize — Best Open Source AI" data-es="1.º Premio — Mejor IA Open Source">1st Prize — Best Open Source AI</span>
+                </div>
+                <div class="award-item">
+                  <span class="award-icon">🥈</span>
+                  <span data-en="2nd Prize — Inditex-Tech Challenge" data-es="2.º Premio — Reto Inditex-Tech">2nd Prize — Inditex-Tech Challenge</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="awards-wrapper__carousel load-hidden">
+              <div id="awardsCarousel" class="carousel slide shadow-lg rounded" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/hackudc/hackudc1.jpeg" class="d-block w-100 rounded" alt="HackUDC Award 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/hackudc/hackudc2.jpeg" class="d-block w-100 rounded" alt="HackUDC Award 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/hackudc/hackudc3.jpeg" class="d-block w-100 rounded" alt="HackUDC Award 3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#awardsCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#awardsCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END Awards Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title" data-en="Contact" data-es="Contacto">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text"
+            data-en="Interested in collaborating or just want to say hi?"
+            data-es="¿Interesado en colaborar o simplemente quieres saludar?">
+            Interested in collaborating or just want to say hi?
+          </p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:nicooaller04@gmail.com"
+            data-en="Say Hello"
+            data-es="Escríbeme"
+          >Say Hello</a>
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://linkedin.com/in/nicolasallerponte" target="_blank" aria-label="LinkedIn">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/nicolasallerponte" target="_blank" aria-label="GitHub">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <p class="footer__text">
+          © 2026 Nicolás Aller Ponte
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>

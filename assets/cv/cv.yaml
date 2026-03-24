@@ -1,0 +1,75 @@
+cv:
+  name: Nicolás Aller Ponte
+  location: A Coruña, Spain
+  email: nicooaller04@gmail.com
+  phone: "+34 604 00 65 36"
+  website: https://nicolasallerponte.com
+  social_networks:
+    - network: LinkedIn
+      username: nicolasallerponte
+    - network: GitHub
+      username: nicolasallerponte
+
+  sections:
+    educacion:
+      - institution: Universidade da Coruña
+        area: Ciencia e Ingeniería de Datos
+        location: A Coruña, Spain
+        start_date: 2022-09
+        end_date: present
+        highlights:
+          - "Conocimientos sobre el ciclo de vida completo del dato: HPC, estadística, ingeniería de datos, bases de datos, y IA."
+
+    experiencia:
+      - company: Cátedra Inditex-UDC de IA en Algoritmos Verdes
+        position: Ayudante de investigación
+        location: A Coruña, Spain
+        start_date: 2025-11
+        end_date: present
+        highlights:
+          - Ayudante de investigación en la Cátedra Inditex-UDC de IA en Algoritmos Verdes.
+          - Desarrollo de sistemas de selección de características para modelos de IA.
+      - company: Gradiant
+        position: AI Engineer
+        location: A Coruña, Spain
+        start_date: 2025-09
+        end_date: 2025-10
+        highlights:
+          - Desarrollo de sistema de detección de daño en coches.
+          - Desarrollo de sistema de evaluación de partes de accidente en coches.
+
+    idiomas:
+      - label: Competencia
+        details: Español (Nativo), Gallego (Nativo), Inglés (Medio), Alemán (Básico)
+
+    habilidades:
+      - label: Data Engineering & Cloud
+        details: Python, R, SQL, MongoDB, Docker, Git, Spark, AWS, GCP
+      - label: AI & Deep Learning
+        details: PyTorch, TensorFlow, Keras, Scikit-learn, Computer Vision, NLP
+      - label: HPC y Programación de Sistemas
+        details: C, C++, Computación Paralela (OpenMP, MPI), Arquitectura de Computadores, CUDA
+
+    premios:
+      - label: Primer Puesto — Mejor uso de IA Open Source (HackUDC 2026)
+        details: Reconocimiento a la integración y optimización de modelos abiertos (SigLIP, DINOv2) en un entorno de producción escalable.
+        date: 2026-03
+      - label: Segundo Puesto — Reto Inditex-Tech (HackUDC 2026)
+        details: Finalista entre +30 equipos por el desarrollo de un motor de búsqueda visual para catálogos masivos de moda.
+        date: 2026-03
+
+    proyectos:
+      - name: Portfolio personal
+        location: Online
+        highlights:
+          - Portfolio personal con proyectos académicos y personales.
+      - name: Outfit Intelligence — HackUDC
+        location: A Coruña, Spain
+        date: 2025-09
+        highlights:
+          - Pipeline de búsqueda visual multicapa con YOLOv8 y SigLIP-384 para identificar productos de catálogo en imágenes de outfits
+          - Fine-tuning de modelos con contrastive loss y validación cruzada, combinando SigLIP y DINOv2 en ensemble para mejorar la precisión
+          - Motor de recomendación con FAISS y API REST con FastAPI sobre un catálogo de 27.000+ productos
+
+design:
+  theme: engineeringresumes
