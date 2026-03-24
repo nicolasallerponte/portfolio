@@ -1,0 +1,75 @@
+cv:
+  name: Nicolás Aller Ponte
+  location: A Coruña, Spain
+  email: nicooaller04@gmail.com
+  phone: "+34 604 00 65 36"
+  website: https://nicolasallerponte.com
+  social_networks:
+    - network: LinkedIn
+      username: nicolasallerponte
+    - network: GitHub
+      username: nicolasallerponte
+
+  sections:
+    education:
+      - institution: Universidade da Coruña
+        area: Bachelor's Degree in Data Science and Engineering
+        location: A Coruña, Spain
+        start_date: 2022-09
+        end_date: present
+        highlights:
+          - "Knowledge of the complete data lifecycle: HPC, statistics, data engineering, databases, and AI."
+
+    experience:
+      - company: Inditex-UDC Chair of AI in Green Algorithms
+        position: Research Assistant
+        location: A Coruña, Spain
+        start_date: 2025-11
+        end_date: present
+        highlights:
+          - Research assistant at the Inditex-UDC Chair of AI in Green Algorithms.
+          - Development of feature selection systems for AI models.
+      - company: Gradiant
+        position: AI Engineer
+        location: A Coruña, Spain
+        start_date: 2025-09
+        end_date: 2025-10
+        highlights:
+          - Development of a car damage detection system.
+          - Development of an evaluation system for car accident reports.
+
+    languages:
+      - label: Proficiency
+        details: Spanish (Native), Galician (Native), English (Intermediate), German (Basic)
+
+    skills:
+      - label: Data Engineering & Cloud
+        details: Python, R, SQL, MongoDB, Docker, Git, Spark, AWS, GCP
+      - label: AI & Deep Learning
+        details: PyTorch, TensorFlow, Keras, Scikit-learn, Computer Vision, NLP
+      - label: HPC & Systems Programming
+        details: C, C++, Parallel Computing (OpenMP, MPI), Computer Architecture, CUDA
+
+    awards:
+      - label: First Place — Best Use of Open Source AI (HackUDC 2026)
+        details: Recognition for the integration and optimization of open-source models (SigLIP, DINOv2) in a scalable production environment.
+        date: 2026-03
+      - label: Second Place — Inditex-Tech Challenge (HackUDC 2026)
+        details: Finalist among 30+ teams for developing a visual search engine for massive fashion catalogs.
+        date: 2026-03
+
+    projects:
+      - name: Personal Portfolio
+        location: Online
+        highlights:
+          - Personal portfolio showcasing academic and personal projects.
+      - name: Outfit Intelligence — HackUDC
+        location: A Coruña, Spain
+        date: 2025-09
+        highlights:
+          - Multi-layer visual search pipeline using YOLOv8 and SigLIP-384 to identify catalog products in outfit images.
+          - Model fine-tuning with contrastive loss and cross-validation, combining SigLIP and DINOv2 in an ensemble to improve accuracy.
+          - Recommendation engine using FAISS and a REST API with FastAPI on a catalog of 27,000+ products.
+
+design:
+  theme: engineeringresumes

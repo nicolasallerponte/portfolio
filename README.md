@@ -1,43 +1,50 @@
-# Astro Starter Kit: Minimal
+# Nicolás Aller Ponte | Portfolio 🚀 — [nicolasallerponte.com](https://nicolasallerponte.com)
 
-```sh
-pnpm create astro@latest -- --template minimal
+A professional, bilingual (English/Spanish) portfolio website built for a **Data Scientist & AI Engineer**. This site is designed to showcase high-impact projects, awards, and expertise in Deep Learning, Computer Vision, and Data Engineering.
+
+## ✨ Key Features
+- **Bilingual Support**: Instant toggle between English and Spanish.
+- **Dynamic CV**: Context-aware CV links based on the active language.
+- **Project Showcase**: Curated selection of high-impact AI/ML projects with GitHub integration.
+- **Awards Section**: Dedicated area for HackUDC 2026 wins with an interactive photo carousel.
+- **Modern Tech Stack**: Built with Sass, Bootstrap, and Parcel for high-performance bundling.
+- **Theme-aware Favicon**: Dynamic browser icons that adapt to light and dark system themes.
+
+## 🛠 Tech Stack
+- **Bundler**: [Parcel](https://parceljs.org/)
+- **UI Framework**: [Bootstrap 5](https://getbootstrap.com/)
+- **Styling**: [Sass (SCSS)](https://sass-lang.com/)
+- **Animations**: [ScrollReveal](https://scrollrevealjs.org/) & [Vanilla Tilt](https://micku7zu.github.io/vanilla-tilt.js/)
+
+## 🚀 Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v14+)
+- npm
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nicolasallerponte/portfolio.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development
+To start the development server:
+```bash
+npm run dev
 ```
+The site will be available at `http://localhost:1234`.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+### Build
+To create a production build:
+```bash
+npm run build
 ```
+The output will be in the `dist/` directory.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 📄 License
+© 2026 Nicolás Aller Ponte. Built with passion for technology and data.

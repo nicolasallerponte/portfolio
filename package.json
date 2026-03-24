@@ -1,17 +1,39 @@
 {
-  "name": "nicolasallerponte.com",
-  "type": "module",
-  "version": "0.0.1",
-  "engines": {
-    "node": ">=22.12.0"
-  },
+  "name": "nicolasaller-portfolio",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "Portfolio of Nicolás Aller Ponte — Data Scientist & AI Engineer",
+  "source": "src/index.html",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasallerponte/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "data-science",
+    "ai",
+    "machine-learning"
+  ],
+  "author": "Nicolás Aller Ponte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasallerponte/portfolio/issues"
+  },
+  "homepage": "https://nicolasallerponte.com",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2",
+    "prettier": "^2.8.1"
   },
   "dependencies": {
-    "astro": "^6.0.8"
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3",
+    "popper.js": "^1.16.1",
+    "vanilla-tilt": "^1.8.0"
   }
 }
