@@ -18,7 +18,7 @@ cv:
         start_date: 2022-09
         end_date: present
         highlights:
-          - "Knowledge of the complete data lifecycle: HPC, statistics, data engineering, databases, and AI."
+          - "Knowledge of the complete data lifecycle: HPC, statistics, data engineering, databases and AI."
 
     experience:
       - company: Inditex-UDC Chair of AI in Green Algorithms
@@ -27,8 +27,7 @@ cv:
         start_date: 2025-11
         end_date: present
         highlights:
-          - Research assistant at the Inditex-UDC Chair of AI in Green Algorithms.
-          - Development of feature selection systems for AI models.
+          - Research and development of efficient algorithms for AI models.
       - company: Gradiant
         position: AI Engineer
         location: A Coruña, Spain
@@ -55,21 +54,22 @@ cv:
         details: Recognition for the integration and optimization of open-source models (SigLIP, DINOv2) in a scalable production environment.
         date: 2026-03
       - label: Second Place — Inditex-Tech Challenge (HackUDC 2026)
-        details: Finalist among 30+ teams for developing a visual search engine for massive fashion catalogs.
+        details: Finalist for developing a visual search engine for massive fashion catalogs.
         date: 2026-03
 
     projects:
-      - name: Personal Portfolio
-        location: Online
-        highlights:
-          - Personal portfolio showcasing academic and personal projects.
       - name: Outfit Intelligence — HackUDC
         location: A Coruña, Spain
-        date: 2025-09
+        date: 2026-03
         highlights:
           - Multi-layer visual search pipeline using YOLOv8 and SigLIP-384 to identify catalog products in outfit images.
           - Model fine-tuning with contrastive loss and cross-validation, combining SigLIP and DINOv2 in an ensemble to improve accuracy.
           - Recommendation engine using FAISS and a REST API with FastAPI on a catalog of 27,000+ products.
+      - name: Local A2A DevHouse
+        location: Local
+        date: 2026-03
+        highlights:
+          - AI agentic software house built with AutoGen to autonomously design, implement, and review software projects.
 
 design:
   theme: engineeringresumes
