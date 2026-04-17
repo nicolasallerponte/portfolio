@@ -25,7 +25,7 @@ cv:
         position: Research Assistant
         location: A Coruña, Spain
         start_date: 2025-11
-        end_date: present
+        end_date: 2026-03
         highlights:
           - Research and development of efficient algorithms for AI models.
       - company: Gradiant
@@ -56,6 +56,9 @@ cv:
       - label: Second Place — Inditex-Tech Challenge (HackUDC 2026)
         details: Finalist for developing a visual search engine for massive fashion catalogs.
         date: 2026-03
+      - label: Second Place — GDG Challenge (Impacthon 2026)
+        details: Runner-up for developing LocalFold, a web portal for protein structure prediction using AlphaFold2, A2A multi-agent system, and Gemini-powered analysis on Google Cloud.
+        date: 2026-04
 
     projects:
       - name: Outfit Intelligence — HackUDC
@@ -65,11 +68,13 @@ cv:
           - Multi-layer visual search pipeline using YOLOv8 and SigLIP-384 to identify catalog products in outfit images.
           - Model fine-tuning with contrastive loss and cross-validation, combining SigLIP and DINOv2 in an ensemble to improve accuracy.
           - Recommendation engine using FAISS and a REST API with FastAPI on a catalog of 27,000+ products.
-      - name: Local A2A DevHouse
-        location: Local
-        date: 2026-03
+      - name: LocalFold — Impacthon 2026
+        location: GDG Challenge
+        date: 2026-04
         highlights:
-          - AI agentic software house built with AutoGen to autonomously design, implement, and review software projects.
+          - Web portal for protein structure prediction via AlphaFold2 without HPC expertise, featuring interactive 3D visualization (Mol*), PAE heatmaps, and pLDDT confidence coloring.
+          - A2A multi-agent system with four specialist agents (mutation, lab conditions, clinical relevance, experimental design) powered by Gemini 2.5 Flash with Google Search Grounding.
+          - Deployed on Google Cloud Run with FastAPI, Firestore, and six-language UI support.
 
 design:
   theme: engineeringresumes
