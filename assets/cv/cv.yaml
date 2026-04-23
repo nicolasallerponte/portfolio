@@ -34,8 +34,7 @@ cv:
         start_date: 2025-09
         end_date: 2025-10
         highlights:
-          - Desarrollo de sistema de detección de daño en coches.
-          - Desarrollo de sistema de evaluación de partes de accidente en coches.
+          - Desarrollo de sistema de detección de daño y evaluación de partes en coches.
 
     idiomas:
       - label: Competencia
@@ -50,31 +49,31 @@ cv:
         details: C, C++, Computación Paralela (OpenMP, MPI), Arquitectura de Computadores, CUDA
 
     premios:
-      - label: Primer Puesto — Mejor uso de IA Open Source (HackUDC 2026)
+      - label: Primer Puesto - Mejor uso de IA Open Source (HackUDC 2026)
         details: Reconocimiento a la integración y optimización de modelos abiertos (SigLIP, DINOv2) en un entorno de producción escalable.
         date: 2026-03
-      - label: Segundo Puesto — Reto Inditex-Tech (HackUDC 2026)
+      - label: Segundo Puesto - Reto Inditex-Tech (HackUDC 2026)
         details: Finalista por el desarrollo de un motor de búsqueda visual para catálogos masivos de moda.
         date: 2026-03
-      - label: Segundo Premio — GDG Challenge (Impacthon 2026)
+      - label: Segundo Puesto - GDG Challenge (Impacthon 2026)
         details: Segundo puesto por el desarrollo de LocalFold, portal web de predicción de estructuras proteicas con AlphaFold2, sistema multi-agente A2A y análisis con Gemini sobre Google Cloud.
         date: 2026-04
 
     proyectos:
-      - name: Outfit Intelligence — HackUDC
+      - name: Outfit Intelligence - HackUDC
         location: A Coruña, Spain
         date: 2026-03
         highlights:
           - Pipeline de búsqueda visual multicapa con YOLOv8 y SigLIP-384 para identificar productos de catálogo en imágenes de outfits
           - Fine-tuning de modelos con contrastive loss y validación cruzada, combinando SigLIP y DINOv2 en ensemble para mejorar la precisión
           - Motor de recomendación con FAISS y API REST con FastAPI sobre un catálogo de 27.000+ productos
-      - name: LocalFold — Impacthon 2026
+      - name: LocalFold - Impacthon 2026
         location: GDG Challenge
         date: 2026-04
         highlights:
-          - Portal web para predicción de estructuras proteicas con AlphaFold2 sin necesidad de conocimientos de HPC, con visualización 3D interactiva (Mol*), mapas PAE y coloración por confianza pLDDT.
-          - Sistema multi-agente A2A con cuatro agentes especializados (mutaciones, condiciones de laboratorio, relevancia clínica y diseño experimental) usando Gemini 2.5 Flash con Google Search Grounding.
-          - Despliegue en Google Cloud Run con FastAPI, Firestore y soporte multilingüe en seis idiomas.
+          - Portal web para predicción de estructuras proteicas con AlphaFold2 sin necesidad de conocimientos de HPC, con visualización 3D interactiva (Mol*).
+          - Sistema multi-agente A2A con cuatro agentes especializados usando Gemini con Google Search Grounding.
+          - Despliegue en Google Cloud Run con FastAPI, Firestore y soporte multilingüe.
 
 design:
   theme: engineeringresumes

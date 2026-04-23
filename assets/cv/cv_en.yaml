@@ -34,8 +34,7 @@ cv:
         start_date: 2025-09
         end_date: 2025-10
         highlights:
-          - Development of a car damage detection system.
-          - Development of an evaluation system for car accident reports.
+          - Development of a car damage detection and parts evaluation system.
 
     languages:
       - label: Proficiency
@@ -50,31 +49,31 @@ cv:
         details: C, C++, Parallel Computing (OpenMP, MPI), Computer Architecture, CUDA
 
     awards:
-      - label: First Place — Best Use of Open Source AI (HackUDC 2026)
+      - label: First Place - Best Use of Open Source AI (HackUDC 2026)
         details: Recognition for the integration and optimization of open-source models (SigLIP, DINOv2) in a scalable production environment.
         date: 2026-03
-      - label: Second Place — Inditex-Tech Challenge (HackUDC 2026)
+      - label: Second Place - Inditex-Tech Challenge (HackUDC 2026)
         details: Finalist for developing a visual search engine for massive fashion catalogs.
         date: 2026-03
-      - label: Second Place — GDG Challenge (Impacthon 2026)
+      - label: Second Place - GDG Challenge (Impacthon 2026)
         details: Runner-up for developing LocalFold, a web portal for protein structure prediction using AlphaFold2, A2A multi-agent system, and Gemini-powered analysis on Google Cloud.
         date: 2026-04
 
     projects:
-      - name: Outfit Intelligence — HackUDC
+      - name: Outfit Intelligence - HackUDC
         location: A Coruña, Spain
         date: 2026-03
         highlights:
           - Multi-layer visual search pipeline using YOLOv8 and SigLIP-384 to identify catalog products in outfit images.
           - Model fine-tuning with contrastive loss and cross-validation, combining SigLIP and DINOv2 in an ensemble to improve accuracy.
           - Recommendation engine using FAISS and a REST API with FastAPI on a catalog of 27,000+ products.
-      - name: LocalFold — Impacthon 2026
+      - name: LocalFold - Impacthon 2026
         location: GDG Challenge
         date: 2026-04
         highlights:
-          - Web portal for protein structure prediction via AlphaFold2 without HPC expertise, featuring interactive 3D visualization (Mol*), PAE heatmaps, and pLDDT confidence coloring.
-          - A2A multi-agent system with four specialist agents (mutation, lab conditions, clinical relevance, experimental design) powered by Gemini 2.5 Flash with Google Search Grounding.
-          - Deployed on Google Cloud Run with FastAPI, Firestore, and six-language UI support.
+          - Web portal for protein structure prediction with AlphaFold2 without HPC knowledge, with interactive 3D visualization (Mol*).
+          - A2A multi-agent system with four specialized agents using Gemini with Google Search Grounding.
+          - Deployed on Google Cloud Run with FastAPI, Firestore, and multilingual support.
 
 design:
   theme: engineeringresumes
