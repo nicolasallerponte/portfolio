@@ -21,6 +21,13 @@ cv:
           - "Knowledge of the complete data lifecycle: HPC, statistics, data engineering, databases and AI."
 
     experience:
+      - company: Self-employed
+        position: Freelance Developer
+        location: A Coruña, Spain
+        start_date: 2026-05
+        end_date: present
+        highlights:
+          - End-to-end design and implementation of SGAR, an in-house product automating Sergas prescription management in pharmacies.
       - company: Inditex
         position: Tech Ambassador
         location: A Coruña, Spain
@@ -67,6 +74,12 @@ cv:
         date: 2026-04
 
     projects:
+      - name: SGAR - Sergas Prescription Automation
+        location: A Coruña, Spain
+        date: 2026-05
+        highlights:
+          - End-to-end system that automates Sergas prescription handling in pharmacies, replacing a multi-hour daily manual workflow.
+          - GDPR/LOPD compliance for medical data (anonymous logging, strict exclusion of personal health information).
       - name: Outfit Intelligence - HackUDC
         location: A Coruña, Spain
         date: 2026-03

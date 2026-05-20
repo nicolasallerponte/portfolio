@@ -21,6 +21,13 @@ cv:
           - "Conocimientos sobre el ciclo de vida completo del dato: HPC, estadística, ingeniería de datos, bases de datos e IA."
 
     experiencia:
+      - company: Autónomo
+        position: Desarrollador freelance
+        location: A Coruña, Spain
+        start_date: 2026-05
+        end_date: present
+        highlights:
+          - Diseño e implementación end-to-end de SGAR, producto propio que automatiza la gestión de recetas del Sergas en farmacia.
       - company: Inditex
         position: Tech Ambassador
         location: A Coruña, Spain
@@ -67,6 +74,12 @@ cv:
         date: 2026-04
 
     proyectos:
+      - name: SGAR - Automatización de recetas del Sergas
+        location: A Coruña, Spain
+        date: 2026-05
+        highlights:
+          - Sistema end-to-end que automatiza la gestión de recetas del Sergas en farmacia, eliminando un proceso manual de varias horas diarias.
+          - Cumplimiento LOPD para datos médicos (logging anónimo, exclusión estricta de información personal de salud).
       - name: Outfit Intelligence - HackUDC
         location: A Coruña, Spain
         date: 2026-03
