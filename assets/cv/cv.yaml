@@ -43,7 +43,7 @@ cv:
         highlights:
           - Investigación y desarrollo de algoritmos eficientes para modelos de IA.
       - company: Gradiant
-        position: AI Engineer
+        position: AI Engineer (Contrato de prácticas)
         location: A Coruña, Spain
         start_date: 2025-09
         end_date: 2025-10
@@ -52,7 +52,7 @@ cv:
 
     idiomas:
       - label: Competencia
-        details: Español (Nativo), Gallego (Nativo), Inglés (Medio), Alemán (Básico)
+        details: Español (Nativo), Gallego (Nativo), Inglés (Medio)
 
     habilidades:
       - label: Data Engineering & Cloud

@@ -43,7 +43,7 @@ cv:
         highlights:
           - Research and development of efficient algorithms for AI models.
       - company: Gradiant
-        position: AI Engineer
+        position: AI Engineer (Internship contract)
         location: A Coruña, Spain
         start_date: 2025-09
         end_date: 2025-10
@@ -52,7 +52,7 @@ cv:
 
     languages:
       - label: Proficiency
-        details: Spanish (Native), Galician (Native), English (Intermediate), German (Basic)
+        details: Spanish (Native), Galician (Native), English (Intermediate)
 
     skills:
       - label: Data Engineering & Cloud
