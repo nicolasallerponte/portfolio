@@ -28,13 +28,6 @@ cv:
         end_date: present
         highlights:
           - End-to-end design and implementation of SGAR, an in-house product automating Sergas prescription management in pharmacies.
-      - company: Inditex
-        position: Tech Ambassador
-        location: A Coruña, Spain
-        start_date: 2026-04
-        end_date: present
-        highlights:
-          - Representing Inditex at tech events and universities.
       - company: Inditex-UDC Chair of AI in Green Algorithms
         position: Research Assistant
         location: A Coruña, Spain
@@ -107,3 +100,5 @@ cv:
 
 design:
   theme: engineeringresumes
+  templates:
+    date_range: START_DATE - END_DATE
