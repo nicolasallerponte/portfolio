@@ -63,6 +63,9 @@ cv:
         details: C, C++, Parallel Computing (OpenMP, MPI), Computer Architecture, CUDA
 
     awards:
+      - label: Inditex Tech Ambassador
+        details: Selected for the Inditex Tech Ambassador Program, representing Inditex Tech at universities and tech events.
+        date: 2026-04
       - label: First Place - Best Use of Open Source AI (HackUDC 2026)
         details: Recognition for the integration and optimization of open-source models (SigLIP, DINOv2) in a scalable production environment.
         date: 2026-03
@@ -94,6 +97,13 @@ cv:
           - Web portal for protein structure prediction with AlphaFold2 without HPC knowledge, with interactive 3D visualization (Mol*).
           - A2A multi-agent system with four specialized agents using Gemini with Google Search Grounding.
           - Deployed on Google Cloud Run with FastAPI, Firestore, and multilingual support.
+
+    hobbies:
+      - name: Football Coach
+        start_date: 2022
+        end_date: present
+        highlights:
+          - Coaching youth teams of children between 6 and 11 years old.
 
 design:
   theme: engineeringresumes
