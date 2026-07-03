@@ -53,7 +53,7 @@ cv:
       - label: AI & Deep Learning
         details: PyTorch, TensorFlow, Keras, Scikit-learn, Computer Vision, NLP
       - label: HPC & Systems Programming
-        details: C, C++, Parallel Computing (OpenMP, MPI), Computer Architecture, CUDA
+        details: C, C++, Parallel Computing (OpenMP, MPI), CUDA
 
     awards:
       - label: Inditex Tech Ambassador
