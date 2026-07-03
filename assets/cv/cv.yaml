@@ -80,8 +80,7 @@ cv:
         location: A Coruña, Spain
         date: 2026-03
         highlights:
-          - Pipeline de búsqueda visual multicapa con YOLOv8 y SigLIP-384 para identificar productos de catálogo en imágenes de outfits
-          - Fine-tuning de modelos con contrastive loss y validación cruzada, combinando SigLIP y DINOv2 en ensemble para mejorar la precisión
+          - Pipeline de búsqueda visual multicapa con YOLOv8 y SigLIP-384 para identificar productos de catálogo en imágenes de outfits, con fine-tuning de modelos
           - Motor de recomendación con FAISS y API REST con FastAPI sobre un catálogo de 27.000+ productos
       - name: LocalFold - Impacthon 2026
         location: GDG Challenge
