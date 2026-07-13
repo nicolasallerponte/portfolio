@@ -46,7 +46,7 @@ cv:
 
     idiomas:
       - label: Competencia
-        details: Español (Nativo), Gallego (Nativo), Inglés (Medio)
+        details: Español (Nativo), Gallego (Nativo), Inglés (C1, EF SET)
 
     habilidades:
       - label: Data Engineering & Cloud
