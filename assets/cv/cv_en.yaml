@@ -16,9 +16,10 @@ cv:
         area: Bachelor's Degree in Data Science and Engineering
         location: A Coruña, Spain
         start_date: 2022-09
-        end_date: present
+        end_date: 2026-07
         highlights:
           - "Knowledge of the complete data lifecycle: HPC, statistics, data engineering, databases and AI."
+          - "Bachelor's Thesis graded 10/10 with Honors (Matricula de Honor): Computational Optimization of ReliefF, strategies based on approximate search and prototyping."
 
     experience:
       - company: Self-employed

@@ -16,9 +16,10 @@ cv:
         area: Grado en Ciencia e Ingeniería de Datos
         location: A Coruña, Spain
         start_date: 2022-09
-        end_date: present
+        end_date: 2026-07
         highlights:
           - "Conocimientos sobre el ciclo de vida completo del dato: HPC, estadística, ingeniería de datos, bases de datos e IA."
+          - "TFG con 10 (Matrícula de Honor): Optimización Computacional de ReliefF, estrategias basadas en búsqueda aproximada y prototipado."
 
     experiencia:
       - company: Autónomo
