@@ -422,9 +422,12 @@ footer {
     color: var(--mute);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 20px;
     flex-wrap: wrap;
 }
+.footer-mark { margin-right: auto; }
+.footer-mark img { width: 42px; display: block; }
 
 /* ---------- adaptación ---------- */
 
