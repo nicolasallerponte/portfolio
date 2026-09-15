@@ -381,6 +381,11 @@ h1 {
     transition: filter .25s linear;
 }
 .gallery figure:hover img { filter: none; }
+.gallery img.doc {            /* un diploma se enseña entero, no recortado */
+    object-fit: contain;
+    background: var(--paper);
+    padding: 10px;
+}
 .gallery figcaption {
     margin-top: 9px;
     font-size: 11px;
