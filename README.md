@@ -1,52 +1,43 @@
 # nicolasallerponte.com
 
-Personal portfolio website of Nicolás Aller Ponte, Data Scientist and AI Engineer. Live at [nicolasallerponte.com](https://nicolasallerponte.com).
+Personal website of Nicolás Aller Ponte, Data & AI Engineer. Live at
+[nicolasallerponte.com](https://nicolasallerponte.com).
 
 ## Overview
 
-A bilingual (English/Spanish) portfolio site showcasing projects, awards, and experience in Deep Learning, Computer Vision, and Data Engineering.
+A bilingual (Spanish/English) single page covering background, projects and awards.
+The language toggle rewrites the page in place and switches the CV link; the email
+address is obfuscated and revealed on click.
 
-Main features:
+Each entry in the background section opens a spec sheet with the stack behind it.
 
-- Instant language toggle between English and Spanish.
-- CV links that adapt to the active language.
-- Curated project showcase with GitHub integration.
-- Awards section with an interactive photo carousel.
-- Favicon that adapts to light and dark system themes.
-
-## Tech Stack
+## Tech stack
 
 - **Bundler**: [Parcel](https://parceljs.org/)
-- **UI framework**: [Bootstrap 5](https://getbootstrap.com/)
-- **Styling**: [Sass (SCSS)](https://sass-lang.com/)
-- **Animations**: [ScrollReveal](https://scrollrevealjs.org/) and [Vanilla Tilt](https://micku7zu.github.io/vanilla-tilt.js/)
+- **Styling**: plain CSS, no framework
+- **Scripts**: vanilla JavaScript, no dependencies
+- **Typography**: Bodoni Moda for display, system sans for body text
 
-## Getting Started
+## Getting started
 
 Requirements: [Node.js](https://nodejs.org/) v14 or later and npm.
 
 ```bash
-git clone https://github.com/nicolasallerponte/portfolio.git
-cd portfolio
 npm install
+npm run dev     # http://localhost:1234
+npm run build   # production build into dist/
 ```
 
-### Development
+## Layout
 
-```bash
-npm run dev
+```
+src/
+  index.html        the whole page
+  style.css         the whole stylesheet
+  assets/           images, logos, CV and thesis
+  assets/brand/     symbol, wordmark and favicons
 ```
 
-The site will be available at `http://localhost:1234`.
+## Deployment
 
-### Production build
-
-```bash
-npm run build
-```
-
-The output is written to the `dist/` directory.
-
-## License
-
-© 2026 Nicolás Aller Ponte. See [LICENSE.md](LICENSE.md) for details.
+Cloudflare builds the site with `npm run build` and serves `dist/`.

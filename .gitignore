@@ -18,3 +18,9 @@ dist/
 # OS
 .DS_Store
 Thumbs.db
+
+# Material de trabajo que no se publica
+gradiant.pdf
+TFG.pdf
+simbolo.zip*
+assets/cv/rendercv_output/
