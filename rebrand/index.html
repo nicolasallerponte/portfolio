@@ -21,8 +21,8 @@
         <div>
           <h1>Nicolás<br>Aller Ponte</h1>
           <p class="tagline"
-             data-es="Construyo sistemas de machine learning. Del kernel que hay que exprimir hasta la pantalla que alguien abre cada mañana."
-             data-en="I build machine learning systems. From the kernel that has to be squeezed to the screen someone opens every morning.">Construyo sistemas de machine learning. Del kernel que hay que exprimir hasta la pantalla que alguien abre cada mañana.</p>
+             data-es="Data &amp; AI Engineer en A Coruña. Trabajo con datos, modelos y su puesta en producción."
+             data-en="Data &amp; AI Engineer based in A Coruña, Spain. I work with data, models and putting them into production.">Data &amp; AI Engineer en A Coruña. Trabajo con datos, modelos y su puesta en producción.</p>
           <div id="dico">
             <a href="https://github.com/nicolasallerponte">GitHub</a>
             <a href="https://linkedin.com/in/nicolasallerponte">LinkedIn</a>
@@ -38,136 +38,137 @@
     <section class="section container" id="work">
       <h2 class="section-title" data-es="Trabajo" data-en="Work">Trabajo</h2>
 
-      <!-- freelance / farmacia -->
       <article class="job">
-        <div class="job-when" data-es="May 2026 — Jul 2026" data-en="May 2026 — Jul 2026">May 2026 — Jul 2026</div>
+        <div class="job-when">Sep 2026 — Actualidad</div>
+        <div class="job-main">
+          <h3 class="job-role"><span data-es="Data &amp; AI Engineer" data-en="Data &amp; AI Engineer">Data &amp; AI Engineer</span> <span class="at">· <a href="https://www.pullandbear.com/">Pull&amp;Bear</a></span></h3>
+          <p class="job-text" data-es="Trabajo en el departamento de distribución de Pull&amp;Bear, en proyectos de datos e inteligencia artificial." data-en="I work in the distribution department at Pull&amp;Bear, on data and artificial intelligence projects.">Trabajo en el departamento de distribución de Pull&amp;Bear, en proyectos de datos e inteligencia artificial.</p>
+
+            <details class="spec">
+              <summary>
+                <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6"/><line x1="13" y1="13" x2="18" y2="18"/><g class="lens-plus"><line x1="6" y1="8.5" x2="11" y2="8.5"/><line x1="8.5" y1="6" x2="8.5" y2="11"/></g></svg>
+                <span data-es="Ficha técnica" data-en="Spec sheet">Ficha técnica</span>
+              </summary>
+              <div class="spec-body">
+                <dl>
+                  <dt data-es="Área" data-en="Area">Área</dt>
+                  <dd data-es="Distribución." data-en="Distribution.">Distribución.</dd>
+                  <dt data-es="Stack" data-en="Stack">Stack</dt>
+                  <dd data-es="Pendiente de detallar: incorporación reciente." data-en="To be detailed: recently joined.">Pendiente de detallar: incorporación reciente.</dd>
+                </dl>
+              </div>
+            </details>
+        </div>
+        <div class="job-logo"><img src="assets/logo_pullandbear.svg" alt="Pull&Bear" /></div>
+      </article>
+
+      <article class="job">
+        <div class="job-when">May 2026 — Jul 2026</div>
         <div class="job-main">
           <h3 class="job-role"><span data-es="Desarrollador freelance" data-en="Freelance developer">Desarrollador freelance</span> <span class="at">· SGAR</span></h3>
-          <p class="job-text"
-             data-es="Hice SGAR para una farmacia. Recoge del portal público de receita electrónica los papeles de cada paciente, los cruza con el catálogo de equivalencias y con el stock, y deja la dispensación planificada en un calendario. Antes eran dos PDF por paciente, descargados y cotejados a mano contra un Excel, varias horas cada día."
-             data-en="I built SGAR for a single pharmacy. It pulls each patient's paperwork from the public e-prescription portal, cross-checks it against the equivalence catalogue and the stock, and lays the dispensing out on a calendar. Before that it was two PDFs per patient, downloaded and matched by hand against a spreadsheet, hours every day.">Hice SGAR para una farmacia. Recoge del portal público de receita electrónica los papeles de cada paciente, los cruza con el catálogo de equivalencias y con el stock, y deja la dispensación planificada en un calendario. Antes eran dos PDF por paciente, descargados y cotejados a mano contra un Excel, varias horas cada día.</p>
+          <p class="job-text" data-es="Desarrollé SGAR, una aplicación para una farmacia que automatiza la gestión de recetas electrónicas. Hasta entonces el proceso era manual: descargar dos documentos por paciente del portal público de receta electrónica y cotejarlos a mano contra una hoja de cálculo." data-en="I built SGAR, an application for a pharmacy that automates the handling of electronic prescriptions. Until then the process was manual: downloading two documents per patient from the public e-prescription portal and matching them by hand against a spreadsheet.">Desarrollé SGAR, una aplicación para una farmacia que automatiza la gestión de recetas electrónicas. Hasta entonces el proceso era manual: descargar dos documentos por paciente del portal público de receta electrónica y cotejarlos a mano contra una hoja de cálculo.</p>
 
-          <details class="spec">
-            <summary>
-              <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6"/><line x1="13" y1="13" x2="18" y2="18"/><g class="lens-plus"><line x1="6" y1="8.5" x2="11" y2="8.5"/><line x1="8.5" y1="6" x2="8.5" y2="11"/></g></svg>
-              <span data-es="Ficha técnica" data-en="Spec sheet">Ficha técnica</span>
-            </summary>
-            <div class="spec-body">
-              <dl>
-                <dt data-es="Composición" data-en="Composition">Composición</dt>
-                <dd class="stack"><span>Python 3.11</span><span>uv</span><span>FastAPI</span><span>Uvicorn</span><span>SQLite (WAL)</span><span>Alpine.js</span><span>pdfplumber</span><span>rapidfuzz</span><span>openpyxl</span><span>python-docx</span><span>watchdog</span><span>pywin32 · pywinauto</span></dd>
-                <dt data-es="Hechura" data-en="Make">Hechura</dt>
-                <dd data-es="Dos módulos que no se importan entre sí: hablan por el sistema de archivos y una base SQLite. Uno es un bot que entra al portal con certificado y descarga los PDF; el otro los parsea, los cruza y los sirve en una sola página, sin build step ni framework de frontend."
-                    data-en="Two modules that never import each other: they talk through the filesystem and one SQLite file. One is a bot that signs into the portal with a certificate and downloads the PDFs; the other parses them, cross-checks them and serves them as a single page, with no build step and no frontend framework.">Dos módulos que no se importan entre sí: hablan por el sistema de archivos y una base SQLite. Uno es un bot que entra al portal con certificado y descarga los PDF; el otro los parsea, los cruza y los sirve en una sola página, sin build step ni framework de frontend.</dd>
-                <dt data-es="Cuidados" data-en="Care">Cuidados</dt>
-                <dd data-es="Son datos médicos. Los registros guardan códigos de paciente, nunca nombres, y toda dispensación la valida la farmacéutica: la herramienta propone, no decide."
-                    data-en="This is medical data. Logs store patient codes, never names, and every dispensing is validated by the pharmacist: the tool proposes, it does not decide.">Son datos médicos. Los registros guardan códigos de paciente, nunca nombres, y toda dispensación la valida la farmacéutica: la herramienta propone, no decide.</dd>
-              </dl>
-            </div>
-          </details>
+            <details class="spec">
+              <summary>
+                <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6"/><line x1="13" y1="13" x2="18" y2="18"/><g class="lens-plus"><line x1="6" y1="8.5" x2="11" y2="8.5"/><line x1="8.5" y1="6" x2="8.5" y2="11"/></g></svg>
+                <span data-es="Ficha técnica" data-en="Spec sheet">Ficha técnica</span>
+              </summary>
+              <div class="spec-body">
+                <dl>
+                  <dt data-es="Stack" data-en="Stack">Stack</dt>
+                  <dd class="stack" data-es="<span>Python</span><span>FastAPI</span><span>SQLite</span><span>JavaScript</span><span>Automatización de navegador (RPA)</span><span>Extracción de datos de PDF</span>" data-en="<span>Python</span><span>FastAPI</span><span>SQLite</span><span>JavaScript</span><span>Browser automation (RPA)</span><span>PDF data extraction</span>"><span>Python</span><span>FastAPI</span><span>SQLite</span><span>JavaScript</span><span>Automatización de navegador (RPA)</span><span>Extracción de datos de PDF</span></dd>
+                  <dt data-es="Qué hice" data-en="What I did">Qué hice</dt>
+                  <dd data-es="Dos módulos independientes que se comunican por ficheros y una base de datos local. Uno automatiza la descarga de los documentos del portal; el otro los procesa, los cruza con el catálogo de equivalencias y con el stock, y los presenta en una aplicación web con calendario de dispensaciones." data-en="Two independent modules communicating through files and a local database. One automates downloading the documents from the portal; the other parses them, cross-checks them against the equivalence catalogue and the stock, and presents them in a web application with a dispensing calendar.">Dos módulos independientes que se comunican por ficheros y una base de datos local. Uno automatiza la descarga de los documentos del portal; el otro los procesa, los cruza con el catálogo de equivalencias y con el stock, y los presenta en una aplicación web con calendario de dispensaciones.</dd>
+                  <dt data-es="Protección de datos" data-en="Data protection">Protección de datos</dt>
+                  <dd data-es="Son datos médicos: los registros guardan códigos de paciente y no nombres, y toda dispensación la valida el farmacéutico." data-en="This is medical data: records store patient codes rather than names, and every dispensing is validated by the pharmacist.">Son datos médicos: los registros guardan códigos de paciente y no nombres, y toda dispensación la valida el farmacéutico.</dd>
+                </dl>
+              </div>
+            </details>
         </div>
         <div class="job-logo"><img src="../src/assets/na_avatar_black.png" alt="SGAR" /></div>
       </article>
 
-      <!-- inditex tech -->
       <article class="job">
         <div class="job-when">Abr 2026 — Sep 2026</div>
         <div class="job-main">
-          <h3 class="job-role"><span data-es="Tech Ambassador" data-en="Tech Ambassador">Tech Ambassador</span> <span class="at">· <a href="https://www.inditex.com/">Inditex Tech</a></span></h3>
-          <p class="job-text"
-             data-es="Representé a Inditex Tech en la universidad y en eventos tecnológicos, contando qué se construye dentro y cómo se entra. El público era gente que está terminando la carrera y no sabe todavía a qué se quiere dedicar."
-             data-en="I represented Inditex Tech at the university and at tech events, explaining what gets built inside and how to get in. The audience was people finishing their degree who still don't know what they want to do.">Representé a Inditex Tech en la universidad y en eventos tecnológicos, contando qué se construye dentro y cómo se entra. El público era gente que está terminando la carrera y no sabe todavía a qué se quiere dedicar.</p>
+          <h3 class="job-role"><span data-es="Tech Ambassador" data-en="Tech Ambassador">Tech Ambassador</span> <span class="at">· <a href="https://www.inditex.com/">Inditex</a></span></h3>
+          <p class="job-text" data-es="Hice de enlace entre Inditex Tech y el entorno universitario: recibí formación por parte de Inditex y busqué eventos y workshops en los que la empresa pudiera participar." data-en="I acted as a link between Inditex Tech and the university environment: I received training from Inditex and looked for events and workshops the company could take part in.">Hice de enlace entre Inditex Tech y el entorno universitario: recibí formación por parte de Inditex y busqué eventos y workshops en los que la empresa pudiera participar.</p>
 
-          <details class="spec">
-            <summary>
-              <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6"/><line x1="13" y1="13" x2="18" y2="18"/><g class="lens-plus"><line x1="6" y1="8.5" x2="11" y2="8.5"/><line x1="8.5" y1="6" x2="8.5" y2="11"/></g></svg>
-              <span data-es="Ficha técnica" data-en="Spec sheet">Ficha técnica</span>
-            </summary>
-            <div class="spec-body">
-              <dl>
-                <dt data-es="Papel" data-en="Role">Papel</dt>
-                <dd data-es="Divulgación y representación. Charlas, presencia en eventos universitarios y trato directo con estudiantes."
-                    data-en="Outreach and representation. Talks, presence at university events and direct contact with students.">Divulgación y representación. Charlas, presencia en eventos universitarios y trato directo con estudiantes.</dd>
-                <dt data-es="Composición" data-en="Composition">Composición</dt>
-                <dd data-es="Sin stack: aquí no se escribe código."
-                    data-en="No stack: no code is written here.">Sin stack: aquí no se escribe código.</dd>
-              </dl>
-            </div>
-          </details>
+            <details class="spec">
+              <summary>
+                <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6"/><line x1="13" y1="13" x2="18" y2="18"/><g class="lens-plus"><line x1="6" y1="8.5" x2="11" y2="8.5"/><line x1="8.5" y1="6" x2="8.5" y2="11"/></g></svg>
+                <span data-es="Ficha técnica" data-en="Spec sheet">Ficha técnica</span>
+              </summary>
+              <div class="spec-body">
+                <dl>
+                  <dt data-es="Qué hice" data-en="What I did">Qué hice</dt>
+                  <dd data-es="Formaciones impartidas por Inditex. Búsqueda de eventos, hackathons y workshops de interés para la empresa, y contacto entre los organizadores y Inditex Tech." data-en="Training sessions given by Inditex. Scouting events, hackathons and workshops of interest to the company, and connecting the organisers with Inditex Tech.">Formaciones impartidas por Inditex. Búsqueda de eventos, hackathons y workshops de interés para la empresa, y contacto entre los organizadores y Inditex Tech.</dd>
+                  <dt data-es="Stack" data-en="Stack">Stack</dt>
+                  <dd data-es="Sin componente técnica: es un papel de representación." data-en="No technical component: this is a representation role.">Sin componente técnica: es un papel de representación.</dd>
+                </dl>
+              </div>
+            </details>
         </div>
-        <div class="job-logo"><img src="../src/assets/inditextech.png" alt="Inditex Tech" /></div>
+        <div class="job-logo"><img src="assets/logo_inditextech.png" alt="Inditex Tech" /></div>
       </article>
 
-      <!-- cátedra -->
       <article class="job">
         <div class="job-when">Nov 2025 — Mar 2026</div>
         <div class="job-main">
           <h3 class="job-role"><span data-es="Ayudante de investigación" data-en="Research assistant">Ayudante de investigación</span> <span class="at">· <a href="https://catedrainditexalgoritmosverdes.com/">Cátedra Inditex-UDC</a></span></h3>
-          <p class="job-text"
-             data-es="Selección de características que no cueste una fortuna en cómputo. ReliefF detecta interacciones entre variables como pocos métodos, pero su coste crece con el cuadrado de las instancias: a partir de cierto tamaño, simplemente no termina."
-             data-en="Feature selection that doesn't cost a fortune in compute. ReliefF captures feature interactions like few other methods, but its cost grows with the square of the sample size: past a certain point it simply never finishes.">Selección de características que no cueste una fortuna en cómputo. ReliefF detecta interacciones entre variables como pocos métodos, pero su coste crece con el cuadrado de las instancias: a partir de cierto tamaño, simplemente no termina.</p>
+          <p class="job-text" data-es="Investigación en selección de características eficiente. ReliefF captura interacciones entre variables, pero su coste crece con el cuadrado del número de instancias, lo que lo vuelve inviable en conjuntos grandes." data-en="Research on efficient feature selection. ReliefF captures interactions between variables, but its cost grows with the square of the number of instances, which makes it infeasible on large datasets.">Investigación en selección de características eficiente. ReliefF captura interacciones entre variables, pero su coste crece con el cuadrado del número de instancias, lo que lo vuelve inviable en conjuntos grandes.</p>
 
-          <details class="spec">
-            <summary>
-              <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6"/><line x1="13" y1="13" x2="18" y2="18"/><g class="lens-plus"><line x1="6" y1="8.5" x2="11" y2="8.5"/><line x1="8.5" y1="6" x2="8.5" y2="11"/></g></svg>
-              <span data-es="Ficha técnica" data-en="Spec sheet">Ficha técnica</span>
-            </summary>
-            <div class="spec-body">
-              <dl>
-                <dt data-es="Composición" data-en="Composition">Composición</dt>
-                <dd class="stack"><span>Python 3.11</span><span>hnswlib 0.8</span><span>Numba 0.58</span><span>scikit-learn 1.3</span><span>skrebate</span><span>NumPy 1.24</span><span>Pandas 2.0</span><span>Matplotlib 3.7</span><span>LaTeX</span></dd>
-                <dt data-es="Hechura" data-en="Make">Hechura</dt>
-                <dd data-es="Dos variantes que bajan el coste sin tocar el criterio de relevancia. HNSW-ReliefF cambia la búsqueda exacta de vecinos por consultas sobre un índice de grafo navegable jerárquico; Proto-ReliefF comprime el conjunto de entrenamiento en un número acotado de prototipos por clustering. El bucle de puntuación va compilado con Numba."
-                    data-en="Two variants that cut the cost without touching the relevance criterion. HNSW-ReliefF swaps exact neighbour search for queries over a hierarchical navigable small world index; Proto-ReliefF compresses the training set into a bounded number of clustered prototypes. The scoring loop is JIT-compiled with Numba.">Dos variantes que bajan el coste sin tocar el criterio de relevancia. HNSW-ReliefF cambia la búsqueda exacta de vecinos por consultas sobre un índice de grafo navegable jerárquico; Proto-ReliefF comprime el conjunto de entrenamiento en un número acotado de prototipos por clustering. El bucle de puntuación va compilado con Numba.</dd>
-                <dt data-es="Resultado" data-en="Outcome">Resultado</dt>
-                <dd data-es='Sobre datasets de millones de instancias, donde ReliefF no llega, más de dos órdenes de magnitud de aceleración y un tercio menos de emisiones, con una selección estadísticamente equivalente. El código va bajo licencia MIT y la memoria está <a href="../TFG.pdf" target="_blank">aquí</a>.'
-                    data-en='On datasets of millions of instances, where ReliefF is infeasible, over two orders of magnitude of speed-up and a third fewer emissions, with statistically equivalent selection quality. The code is MIT-licensed and the thesis is <a href="../TFG.pdf" target="_blank">here</a>.'>Sobre datasets de millones de instancias, donde ReliefF no llega, más de dos órdenes de magnitud de aceleración y un tercio menos de emisiones, con una selección estadísticamente equivalente. El código va bajo licencia MIT y la memoria está <a href="../TFG.pdf" target="_blank">aquí</a>.</dd>
-              </dl>
-            </div>
-          </details>
+            <details class="spec">
+              <summary>
+                <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6"/><line x1="13" y1="13" x2="18" y2="18"/><g class="lens-plus"><line x1="6" y1="8.5" x2="11" y2="8.5"/><line x1="8.5" y1="6" x2="8.5" y2="11"/></g></svg>
+                <span data-es="Ficha técnica" data-en="Spec sheet">Ficha técnica</span>
+              </summary>
+              <div class="spec-body">
+                <dl>
+                  <dt data-es="Stack" data-en="Stack">Stack</dt>
+                  <dd class="stack" data-es="<span>Python</span><span>scikit-learn</span><span>Índices vectoriales (HNSW)</span><span>Compilación JIT</span><span>Clustering</span><span>NumPy</span><span>Pandas</span><span>LaTeX</span>" data-en="<span>Python</span><span>scikit-learn</span><span>Vector indexes (HNSW)</span><span>JIT compilation</span><span>Clustering</span><span>NumPy</span><span>Pandas</span><span>LaTeX</span>"><span>Python</span><span>scikit-learn</span><span>Índices vectoriales (HNSW)</span><span>Compilación JIT</span><span>Clustering</span><span>NumPy</span><span>Pandas</span><span>LaTeX</span></dd>
+                  <dt data-es="Qué hice" data-en="What I did">Qué hice</dt>
+                  <dd data-es="Dos variantes del algoritmo. Una sustituye la búsqueda exacta de vecinos por búsqueda aproximada sobre un índice vectorial; la otra reduce el conjunto de entrenamiento a un número acotado de prototipos mediante clustering." data-en="Two variants of the algorithm. One replaces exact nearest-neighbour search with approximate search over a vector index; the other reduces the training set to a bounded number of prototypes through clustering.">Dos variantes del algoritmo. Una sustituye la búsqueda exacta de vecinos por búsqueda aproximada sobre un índice vectorial; la otra reduce el conjunto de entrenamiento a un número acotado de prototipos mediante clustering.</dd>
+                  <dt data-es="Resultado" data-en="Outcome">Resultado</dt>
+                  <dd data-es="En conjuntos de millones de instancias, más de dos órdenes de magnitud de aceleración y alrededor de un tercio menos de emisiones, con una calidad de selección estadísticamente equivalente. Código bajo licencia MIT y memoria disponible <a href="../TFG.pdf" target="_blank">aquí</a>." data-en="On datasets of millions of instances, more than two orders of magnitude of speed-up and around a third fewer emissions, with statistically equivalent selection quality. MIT-licensed code, thesis available <a href="../TFG.pdf" target="_blank">here</a>.">En conjuntos de millones de instancias, más de dos órdenes de magnitud de aceleración y alrededor de un tercio menos de emisiones, con una calidad de selección estadísticamente equivalente. Código bajo licencia MIT y memoria disponible <a href="../TFG.pdf" target="_blank">aquí</a>.</dd>
+                </dl>
+              </div>
+            </details>
         </div>
         <div class="job-logo"><img src="assets/logo_catedra.svg" alt="Cátedra Inditex-UDC" /></div>
       </article>
 
-      <!-- gradiant -->
       <article class="job">
         <div class="job-when">Sep 2025 — Oct 2025</div>
         <div class="job-main">
           <h3 class="job-role"><span data-es="AI Engineer, prácticas" data-en="AI Engineer, internship">AI Engineer, prácticas</span> <span class="at">· <a href="https://gradiant.org/">Gradiant</a></span></h3>
-          <p class="job-text"
-             data-es="Validación multimodal para el sector asegurador: detectar cuándo la foto de un vehículo dañado y la descripción que la acompaña no cuentan lo mismo."
-             data-en="Multimodal validation for the insurance sector: spotting when the photo of a damaged vehicle and the description filed with it don't tell the same story.">Validación multimodal para el sector asegurador: detectar cuándo la foto de un vehículo dañado y la descripción que la acompaña no cuentan lo mismo.</p>
+          <p class="job-text" data-es="Prácticas en el área de inteligencia artificial, dentro de un proyecto de validación de expedientes del sector asegurador: comprobar si una imagen y la descripción que la acompaña son coherentes entre sí." data-en="Internship in the artificial intelligence area, within a claims validation project for the insurance sector: checking whether an image and the description filed with it are consistent.">Prácticas en el área de inteligencia artificial, dentro de un proyecto de validación de expedientes del sector asegurador: comprobar si una imagen y la descripción que la acompaña son coherentes entre sí.</p>
 
-          <details class="spec">
-            <summary>
-              <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6"/><line x1="13" y1="13" x2="18" y2="18"/><g class="lens-plus"><line x1="6" y1="8.5" x2="11" y2="8.5"/><line x1="8.5" y1="6" x2="8.5" y2="11"/></g></svg>
-              <span data-es="Ficha técnica" data-en="Spec sheet">Ficha técnica</span>
-            </summary>
-            <div class="spec-body">
-              <dl>
-                <dt data-es="Composición" data-en="Composition">Composición</dt>
-                <dd class="stack"><span>Qwen2.5-VL 32B-Instruct</span><span>Sentence-Transformers</span><span>all-mpnet-base-v2</span><span>PyTorch</span><span>GPU en servidor propio</span></dd>
-                <dt data-es="Hechura" data-en="Make">Hechura</dt>
-                <dd data-es="El modelo visual vuelve a describir la imagen con un prompt de formato cerrado (color, ángulo, visibilidad, daños) y ese texto se compara con la descripción original por similitud coseno entre embeddings. Si bajan mucho, algo no cuadra."
-                    data-en="The vision-language model re-describes the image under a strict output template (colour, angle, visibility, damage) and that text is compared with the original description by cosine similarity between embeddings. A low score means something doesn't add up.">El modelo visual vuelve a describir la imagen con un prompt de formato cerrado (color, ángulo, visibilidad, daños) y ese texto se compara con la descripción original por similitud coseno entre embeddings. Si bajan mucho, algo no cuadra.</dd>
-                <dt data-es="Detalle" data-en="Detail">Detalle</dt>
-                <dd data-es="Los ejemplos incoherentes no se generaron al azar: se emparejaron descripciones de baja similitud entre sí, para que el fallo fuese plausible y no un caso trivial. Evaluado sobre un dataset público de daños en vehículos en formato COCO."
-                    data-en="The incoherent examples were not random: captions with low mutual similarity were paired up so the mismatch stayed plausible rather than trivial. Evaluated on a public car damage dataset in COCO format.">Los ejemplos incoherentes no se generaron al azar: se emparejaron descripciones de baja similitud entre sí, para que el fallo fuese plausible y no un caso trivial. Evaluado sobre un dataset público de daños en vehículos en formato COCO.</dd>
-              </dl>
-            </div>
-          </details>
+            <details class="spec">
+              <summary>
+                <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6"/><line x1="13" y1="13" x2="18" y2="18"/><g class="lens-plus"><line x1="6" y1="8.5" x2="11" y2="8.5"/><line x1="8.5" y1="6" x2="8.5" y2="11"/></g></svg>
+                <span data-es="Ficha técnica" data-en="Spec sheet">Ficha técnica</span>
+              </summary>
+              <div class="spec-body">
+                <dl>
+                  <dt data-es="Stack" data-en="Stack">Stack</dt>
+                  <dd class="stack" data-es="<span>Python</span><span>PyTorch</span><span>LLMs multimodales (visión y lenguaje)</span><span>Embeddings de texto</span><span>Similitud semántica</span><span>GPU</span>" data-en="<span>Python</span><span>PyTorch</span><span>Multimodal LLMs (vision and language)</span><span>Text embeddings</span><span>Semantic similarity</span><span>GPU</span>"><span>Python</span><span>PyTorch</span><span>LLMs multimodales (visión y lenguaje)</span><span>Embeddings de texto</span><span>Similitud semántica</span><span>GPU</span></dd>
+                  <dt data-es="Qué hice" data-en="What I did">Qué hice</dt>
+                  <dd data-es="El modelo genera una nueva descripción de la imagen con un formato fijo y se compara con la descripción original mediante embeddings. Una similitud baja señala una posible incoherencia." data-en="The model generates a fresh description of the image under a fixed template and it is compared with the original description through embeddings. A low similarity flags a possible inconsistency.">El modelo genera una nueva descripción de la imagen con un formato fijo y se compara con la descripción original mediante embeddings. Una similitud baja señala una posible incoherencia.</dd>
+                  <dt data-es="Resultado" data-en="Outcome">Resultado</dt>
+                  <dd data-es="Evaluación sobre un conjunto público de imágenes de daños en vehículos, con puntuaciones por muestra y métricas agregadas." data-en="Evaluation on a public dataset of vehicle damage images, with per-sample scores and aggregate metrics.">Evaluación sobre un conjunto público de imágenes de daños en vehículos, con puntuaciones por muestra y métricas agregadas.</dd>
+                </dl>
+              </div>
+            </details>
         </div>
         <div class="job-logo"><img src="assets/logo_gradiant.svg" alt="Gradiant" /></div>
       </article>
 
-      <!-- udc -->
       <article class="job">
         <div class="job-when">2022 — 2026</div>
         <div class="job-main">
           <h3 class="job-role"><span data-es="Grado en Ciencia e Ingeniería de Datos" data-en="BSc in Data Science and Engineering">Grado en Ciencia e Ingeniería de Datos</span> <span class="at">· <a href="https://www.udc.es/">UDC</a></span></h3>
-          <p class="job-text"
-             data-es="Cuatro años en la Universidade da Coruña. El Trabajo Fin de Grado, sobre la optimización computacional de ReliefF, se calificó con 10 y Matrícula de Honor."
-             data-en="Four years at the Universidade da Coruña. My final thesis, on the computational optimization of ReliefF, was graded 10/10 with Honors.">Cuatro años en la Universidade da Coruña. El Trabajo Fin de Grado, sobre la optimización computacional de ReliefF, se calificó con 10 y Matrícula de Honor.</p>
+          <p class="job-text" data-es="Grado en Ciencia e Ingeniería de Datos en la Universidade da Coruña. El Trabajo Fin de Grado, sobre optimización computacional de ReliefF, se calificó con 10 y Matrícula de Honor." data-en="BSc in Data Science and Engineering at the Universidade da Coruña. My final thesis, on the computational optimization of ReliefF, was graded 10/10 with Honors.">Grado en Ciencia e Ingeniería de Datos en la Universidade da Coruña. El Trabajo Fin de Grado, sobre optimización computacional de ReliefF, se calificó con 10 y Matrícula de Honor.</p>
         </div>
         <div class="job-logo"><img src="assets/logo_udc.svg" alt="Universidade da Coruña" /></div>
       </article>
@@ -177,8 +178,8 @@
     <section class="section band">
       <div class="container" id="bio">
         <h2 class="section-title" data-es="Bio" data-en="Bio">Bio</h2>
-        <p data-es="Data scientist y AI engineer en A Coruña. Trabajo en los dos extremos del problema: el rendimiento, donde se cuentan fallos de caché y se pelea con C, CUDA y MPI, y el producto, donde alguien abre una pantalla por la mañana sin saber que hay un modelo debajo. En medio, PyTorch, Spark, SQL y bastante Docker."
-           data-en="Data scientist and AI engineer in A Coruña, Spain. I work at both ends of the problem: performance, where you count cache misses and wrestle with C, CUDA and MPI, and the product, where someone opens a screen in the morning without knowing there is a model underneath. In between, PyTorch, Spark, SQL and a fair amount of Docker.">Data scientist y AI engineer en A Coruña. Trabajo en los dos extremos del problema: el rendimiento, donde se cuentan fallos de caché y se pelea con C, CUDA y MPI, y el producto, donde alguien abre una pantalla por la mañana sin saber que hay un modelo debajo. En medio, PyTorch, Spark, SQL y bastante Docker.</p>
+        <p data-es="Graduado en Ciencia e Ingeniería de Datos por la Universidade da Coruña. Actualmente trabajo como Data &amp; AI Engineer en el departamento de distribución de Pull&amp;Bear. Antes hice investigación en selección de características eficiente en la Cátedra Inditex-UDC, prácticas de visión artificial y modelos multimodales en Gradiant, y desarrollo a medida para una farmacia. Trabajo tanto en la parte de rendimiento (C/C++, CUDA, MPI, optimización de código) como en la de llevar modelos a producción (Python, PyTorch, Spark, SQL, Docker, cloud)."
+           data-en="I hold a BSc in Data Science and Engineering from the Universidade da Coruña. I currently work as a Data &amp; AI Engineer in the distribution department at Pull&amp;Bear. Before that I did research on efficient feature selection at the Inditex-UDC Chair, an internship in computer vision and multimodal models at Gradiant, and custom development for a pharmacy. I work both on performance (C/C++, CUDA, MPI, code optimization) and on getting models into production (Python, PyTorch, Spark, SQL, Docker, cloud).">Graduado en Ciencia e Ingeniería de Datos por la Universidade da Coruña. Actualmente trabajo como Data &amp; AI Engineer en el departamento de distribución de Pull&amp;Bear. Antes hice investigación en selección de características eficiente en la Cátedra Inditex-UDC, prácticas de visión artificial y modelos multimodales en Gradiant, y desarrollo a medida para una farmacia. Trabajo tanto en la parte de rendimiento (C/C++, CUDA, MPI, optimización de código) como en la de llevar modelos a producción (Python, PyTorch, Spark, SQL, Docker, cloud).</p>
       </div>
     </section>
 
@@ -216,8 +217,8 @@
           <div class="shot cover"><img src="../src/assets/project_outfit.png" alt="Outfit Intelligence" /></div>
           <div>
             <h3><a href="https://github.com/nicolasallerponte/HackUDC2026">Outfit Intelligence</a></h3>
-            <p data-es="Buscas una prenda con una foto y te devuelve lo más parecido de un catálogo de 27.000 productos. YOLOv8 recorta la prenda, un ensemble de SigLIP-384 y DINOv2 la convierte en vector y FAISS hace el resto, servido con FastAPI. Primer premio a la Mejor IA Open Source y segundo del Reto Inditex-Tech en HackUDC 2026."
-               data-en="You search for a garment with a photo and it returns the closest matches from a 27,000-product catalogue. YOLOv8 crops the garment, a SigLIP-384 and DINOv2 ensemble turns it into a vector and FAISS does the rest, served through FastAPI. First prize for Best Open Source AI and second in the Inditex-Tech Challenge at HackUDC 2026.">Buscas una prenda con una foto y te devuelve lo más parecido de un catálogo de 27.000 productos. YOLOv8 recorta la prenda, un ensemble de SigLIP-384 y DINOv2 la convierte en vector y FAISS hace el resto, servido con FastAPI. Primer premio a la Mejor IA Open Source y segundo del Reto Inditex-Tech en HackUDC 2026.</p>
+            <p data-es="Búsqueda visual de prendas sobre un catálogo de 27.000 productos: a partir de una foto devuelve los artículos más parecidos. Detección con YOLOv8, un ensemble de embeddings SigLIP-384 y DINOv2, búsqueda con FAISS y API en FastAPI. Primer premio a la Mejor IA Open Source y segundo premio del Reto Inditex-Tech en HackUDC 2026."
+               data-en="Visual garment search over a 27,000-product catalogue: given a photo, it returns the closest items. YOLOv8 detection, a SigLIP-384 and DINOv2 embedding ensemble, FAISS search and a FastAPI service. First prize for Best Open Source AI and second prize in the Inditex-Tech Challenge at HackUDC 2026.">Búsqueda visual de prendas sobre un catálogo de 27.000 productos: a partir de una foto devuelve los artículos más parecidos. Detección con YOLOv8, un ensemble de embeddings SigLIP-384 y DINOv2, búsqueda con FAISS y API en FastAPI. Primer premio a la Mejor IA Open Source y segundo premio del Reto Inditex-Tech en HackUDC 2026.</p>
             <div class="project-links"><a href="https://github.com/nicolasallerponte/HackUDC2026"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span>GitHub</span><span class="arrow">→</span></a></div>
           </div>
         </article>
@@ -226,8 +227,8 @@
           <div class="shot"><img src="../src/assets/impacthon_proyecto.png" alt="LocalFold" /></div>
           <div>
             <h3><a href="https://github.com/miguelplanas/impacthon2026-MXPNJD">LocalFold</a></h3>
-            <p data-es="Predicción de estructuras proteicas con AlphaFold2 para quien no tiene ni idea de HPC: se sube la secuencia y se recibe la estructura en 3D, con mapas PAE y coloreada por confianza pLDDT. Por dentro, cuatro agentes especializados sobre Gemini 2.5 Flash en Cloud Run. Segundo premio del GDG Challenge, Impacthon 2026."
-               data-en="Protein structure prediction with AlphaFold2 for people with no HPC background: submit a sequence, get the 3D structure back, with PAE maps and pLDDT confidence colouring. Underneath, four specialist agents on Gemini 2.5 Flash running on Cloud Run. Second prize at the GDG Challenge, Impacthon 2026.">Predicción de estructuras proteicas con AlphaFold2 para quien no tiene ni idea de HPC: se sube la secuencia y se recibe la estructura en 3D, con mapas PAE y coloreada por confianza pLDDT. Por dentro, cuatro agentes especializados sobre Gemini 2.5 Flash en Cloud Run. Segundo premio del GDG Challenge, Impacthon 2026.</p>
+            <p data-es="Portal web de predicción de estructuras proteicas con AlphaFold2 sin necesidad de conocimientos de HPC: se envía la secuencia y se obtiene la estructura en 3D, con mapas PAE y coloreada por confianza pLDDT. Sistema de cuatro agentes sobre Gemini 2.5 Flash, desplegado en Cloud Run. Segundo premio del GDG Challenge, Impacthon 2026."
+               data-en="Web portal for protein structure prediction with AlphaFold2 without HPC knowledge: submit a sequence and get the 3D structure back, with PAE maps and pLDDT confidence colouring. A four-agent system on Gemini 2.5 Flash, deployed on Cloud Run. Second prize at the GDG Challenge, Impacthon 2026.">Portal web de predicción de estructuras proteicas con AlphaFold2 sin necesidad de conocimientos de HPC: se envía la secuencia y se obtiene la estructura en 3D, con mapas PAE y coloreada por confianza pLDDT. Sistema de cuatro agentes sobre Gemini 2.5 Flash, desplegado en Cloud Run. Segundo premio del GDG Challenge, Impacthon 2026.</p>
             <div class="project-links"><a href="https://github.com/miguelplanas/impacthon2026-MXPNJD"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span>GitHub</span><span class="arrow">→</span></a></div>
           </div>
         </article>
@@ -236,8 +237,8 @@
           <div class="shot"><img src="assets/tfg_card.svg" alt="Optimización Computacional de ReliefF" /></div>
           <div>
             <h3><a href="../TFG.pdf" data-es="Optimización Computacional de ReliefF" data-en="Computational Optimization of ReliefF">Optimización Computacional de ReliefF</a></h3>
-            <p data-es="El Trabajo Fin de Grado, con 10 y Matrícula de Honor. Búsqueda aproximada de vecinos y prototipado para que ReliefF escale a millones de instancias sin perder calidad de selección."
-               data-en="My final thesis, graded 10/10 with Honors. Approximate nearest-neighbour search and prototyping so that ReliefF scales to millions of instances without losing selection quality.">El Trabajo Fin de Grado, con 10 y Matrícula de Honor. Búsqueda aproximada de vecinos y prototipado para que ReliefF escale a millones de instancias sin perder calidad de selección.</p>
+            <p data-es="Trabajo Fin de Grado, calificado con 10 y Matrícula de Honor. Búsqueda aproximada de vecinos y prototipado para que ReliefF escale a millones de instancias sin perder calidad de selección."
+               data-en="Final thesis, graded 10/10 with Honors. Approximate nearest-neighbour search and prototyping so that ReliefF scales to millions of instances without losing selection quality.">Trabajo Fin de Grado, calificado con 10 y Matrícula de Honor. Búsqueda aproximada de vecinos y prototipado para que ReliefF escale a millones de instancias sin perder calidad de selección.</p>
             <div class="project-links"><a href="../TFG.pdf" target="_blank"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M9.5 0H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V5.5zM9 1.5 13.5 6H10a1 1 0 0 1-1-1zM4.5 8h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1m0 2.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1M4.5 13H8a.5.5 0 0 1 0 1H4.5a.5.5 0 0 1 0-1"/></svg><span data-es="Leer la memoria" data-en="Read the thesis">Leer la memoria</span><span class="arrow">→</span></a></div>
           </div>
         </article>
@@ -246,8 +247,8 @@
           <div class="shot"><img src="../src/assets/project_smartports_new.png" alt="SmartPorts" /></div>
           <div>
             <h3><a href="https://github.com/nicolasallerponte/smartports-ship-classification">SmartPorts</a></h3>
-            <p data-es="Clasificación de imágenes de CCTV portuario para saber si hay barco y en qué estado está el atraque. CNN y ResNet18, validación cruzada K-Fold estratificada, imágenes reales de puerto."
-               data-en="Classification of port CCTV imagery to tell whether there is a ship and what the docking status is. CNNs and ResNet18, stratified K-Fold cross-validation, real port imagery.">Clasificación de imágenes de CCTV portuario para saber si hay barco y en qué estado está el atraque. CNN y ResNet18, validación cruzada K-Fold estratificada, imágenes reales de puerto.</p>
+            <p data-es="Clasificación de imágenes de CCTV portuario para detectar la presencia de barcos y el estado del atraque. CNN y ResNet18 con validación cruzada K-Fold estratificada, entrenado sobre imágenes reales de puerto."
+               data-en="Classification of port CCTV imagery to detect the presence of ships and the docking status. CNNs and ResNet18 with stratified K-Fold cross-validation, trained on real port imagery.">Clasificación de imágenes de CCTV portuario para detectar la presencia de barcos y el estado del atraque. CNN y ResNet18 con validación cruzada K-Fold estratificada, entrenado sobre imágenes reales de puerto.</p>
             <div class="project-links"><a href="https://github.com/nicolasallerponte/smartports-ship-classification"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span>GitHub</span><span class="arrow">→</span></a></div>
           </div>
         </article>
@@ -256,13 +257,13 @@
           <div class="shot"><img src="../src/assets/project_matrixlens.png" alt="MatrixLens" /></div>
           <div>
             <h3><a href="https://github.com/nicolasallerponte/MatrixLens">MatrixLens</a></h3>
-            <p data-es="Un simulador de caché L1 (LRU, asociativa por conjuntos) para ver, fallo a fallo, por qué el tiling arregla una multiplicación de matrices. Nació de no creerme los números de un perfilador."
-               data-en="An L1 cache simulator (LRU, set-associative) that shows, miss by miss, why tiling fixes a matrix multiplication. It started from not believing a profiler's numbers.">Un simulador de caché L1 (LRU, asociativa por conjuntos) para ver, fallo a fallo, por qué el tiling arregla una multiplicación de matrices. Nació de no creerme los números de un perfilador.</p>
+            <p data-es="Simulador de caché L1 (LRU, asociativa por conjuntos) para analizar el comportamiento de kernels de multiplicación de matrices y ver, fallo a fallo, el efecto de las estrategias de tiling."
+               data-en="An L1 cache simulator (LRU, set-associative) for analysing matrix multiplication kernels and seeing, miss by miss, the effect of tiling strategies.">Simulador de caché L1 (LRU, asociativa por conjuntos) para analizar el comportamiento de kernels de multiplicación de matrices y ver, fallo a fallo, el efecto de las estrategias de tiling.</p>
             <div class="project-links"><a href="https://github.com/nicolasallerponte/MatrixLens"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span>GitHub</span><span class="arrow">→</span></a></div>
           </div>
         </article>
 
-        <p class="note" data-es='El resto está en <a href="https://github.com/nicolasallerponte">GitHub</a>.' data-en='The rest lives on <a href="https://github.com/nicolasallerponte">GitHub</a>.'>El resto está en <a href="https://github.com/nicolasallerponte">GitHub</a>.</p>
+        <p class="note" data-es='El resto de proyectos está en <a href="https://github.com/nicolasallerponte">GitHub</a>.' data-en='The rest of the projects are on <a href="https://github.com/nicolasallerponte">GitHub</a>.'>El resto de proyectos está en <a href="https://github.com/nicolasallerponte">GitHub</a>.</p>
       </div>
     </section>
 
@@ -275,7 +276,6 @@
         <figure><img src="../src/assets/hackudc/hackudc3.jpeg" alt="HackUDC 2026" /><figcaption>HackUDC 2026</figcaption></figure>
         <figure><img src="../src/assets/impacthon/impacthon.jpg" alt="Impacthon 2026" /><figcaption>Impacthon 2026</figcaption></figure>
         <figure><img src="../src/assets/impacthon/impacthon2.jpg" alt="Impacthon 2026" /><figcaption>Impacthon 2026</figcaption></figure>
-        <figure><img src="../src/assets/inditextech.png" alt="Inditex Tech" /><figcaption>Inditex Tech</figcaption></figure>
       </div>
     </section>
 
