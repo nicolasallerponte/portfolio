@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" font-family="Helvetica, Arial, sans-serif">
+  <rect width="400" height="250" fill="#ffffff"/>
+
+  <!-- UDC logo lockup -->
+  <g transform="translate(34,30)">
+    <g transform="scale(0.088) translate(-373,-326)" fill="#B53784">
+      <path d="M598.2,422.9L759.8,350c-40.7-20.6-98-33.5-161.6-33.5c-63.6,0-121,12.9-161.6,33.5L598.2,422.9z"/>
+      <path d="M818.4,406.5c-4.5-13-13.8-25.2-27.1-36.2l-180.7,51.8L818.4,406.5z"/>
+      <path d="M792.4,477.6c13.1-11.1,22.3-23.5,26.5-36.6l-208.5-14.6L792.4,477.6z"/>
+      <path d="M598.2,425.8l-162.8,72.5c40.7,20.9,98.6,34,162.8,34c64.2,0,122-13.1,162.8-34L598.2,425.8z"/>
+      <path d="M377.5,441c4.2,13.2,13.4,25.5,26.5,36.6l182-51.2L377.5,441z"/>
+      <path d="M585.7,422.1L405,370.3c-13.2,11-22.6,23.2-27.1,36.2L585.7,422.1z"/>
+    </g>
+    <text x="52" y="9" font-size="8" letter-spacing="0.5" fill="#8a7d92" font-weight="600">FACULTADE DE INFORMÁTICA</text>
+    <text x="52" y="24" font-size="13.5" letter-spacing="0.3" fill="#2f2436" font-weight="600">UNIVERSIDADE DA CORUÑA</text>
+  </g>
+
+  <line x1="34" y1="70" x2="366" y2="70" stroke="#ece7ef" stroke-width="1"/>
+
+  <text x="34" y="94" font-size="10" letter-spacing="2.5" fill="#a394ad" font-weight="700">TRABAJO FIN DE GRADO</text>
+
+  <text x="34" y="132" font-size="25" font-weight="700" fill="#2f2436">Optimización</text>
+  <text x="34" y="162" font-size="25" font-weight="700" fill="#2f2436">Computacional</text>
+  <text x="34" y="192" font-size="25" font-weight="700" fill="#B53784">de ReliefF</text>
+
+  <text x="34" y="226" font-size="12.5" fill="#6f6377" font-weight="600">10 · Matrícula de Honor</text>
+</svg>
