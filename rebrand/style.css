@@ -266,6 +266,7 @@ h1 {
     max-width: 58ch;
     margin: 0;
 }
+#bio p + p { margin-top: 20px; }
 
 /* ---------- reconocimientos ---------- */
 
