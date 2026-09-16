@@ -15,6 +15,8 @@
 }
 
 * { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+img { max-width: 100%; }
 [hidden] { display: none !important; }
 
 body {
@@ -35,6 +37,8 @@ a { color: inherit; }
     max-width: 960px;
     margin: 0 auto;
     padding: 0 28px;
+    padding-left: max(28px, env(safe-area-inset-left));
+    padding-right: max(28px, env(safe-area-inset-right));
 }
 
 /* Etiqueta: 11px, versalitas anchas. Se repite en toda la página. */
@@ -45,7 +49,7 @@ a { color: inherit; }
     color: var(--mute);
 }
 
-.section { padding: 80px 0; }
+.section { padding-top: 80px; padding-bottom: 80px; }
 .band { background: var(--bone); }
 
 .section-title {
@@ -61,7 +65,7 @@ a { color: inherit; }
 
 /* ---------- cabecera ---------- */
 
-#masthead { padding: 64px 0 72px; }
+#masthead { padding-top: 64px; padding-bottom: 72px; }
 
 .masthead-grid {
     display: grid;
@@ -400,8 +404,8 @@ h1 {
 
 #lang-toggle {
     position: fixed;
-    top: 22px;
-    right: 22px;
+    top: max(22px, env(safe-area-inset-top));
+    right: max(22px, env(safe-area-inset-right));
     z-index: 10;
     font-family: var(--sans);
     font-size: 11px;
@@ -416,7 +420,8 @@ h1 {
 
 footer {
     border-top: 1px solid var(--rule);
-    padding: 30px 0 46px;
+    padding-top: 30px;
+    padding-bottom: max(46px, env(safe-area-inset-bottom));
     font-size: 11px;
     letter-spacing: .18em;
     text-transform: uppercase;
@@ -428,7 +433,7 @@ footer {
     flex-wrap: wrap;
 }
 .footer-mark { margin-right: auto; }
-.footer-mark img { width: 42px; display: block; }
+.footer-mark img { height: 30px; width: auto; display: block; }
 
 /* ---------- adaptación ---------- */
 
@@ -446,8 +451,38 @@ footer {
 }
 
 @media (max-width: 560px) {
+    body { font-size: 16px; }
     h1 { font-size: 46px; }
     .portrait { width: 100%; height: 340px; }
     .awards { grid-template-columns: 1fr; }
-    .section { padding: 56px 0; }
+    .section { padding-top: 56px; padding-bottom: 56px; }
+    .container { padding: 0 20px;
+        padding-left: max(20px, env(safe-area-inset-left));
+        padding-right: max(20px, env(safe-area-inset-right)); }
+    #masthead { padding-top: 40px; padding-bottom: 48px; }
+    .section-title { margin-bottom: 32px; }
+    .tagline { font-size: 16px; max-width: none; }
+    #bio p { font-size: 18px; }
+    .job-role { font-size: 22px; }
+    .project h3 { font-size: 22px; }
+    .gallery { gap: 12px; }
+    .gallery img { height: 190px; }
+    .project .shot { height: 180px; }
+    .spec-body { padding: 20px 18px 18px; }
+    .spec-body dd.stack span { white-space: normal; }  /* no desbordar en 320px */
+    .project-links a { margin-right: 16px; }
+    footer { font-size: 10px; letter-spacing: .14em; }
+}
+
+@media (max-width: 380px) {
+    h1 { font-size: 38px; }
+    .portrait { height: 300px; }
+    .gallery { grid-template-columns: 1fr; }
+    .gallery img { height: 240px; }
+}
+
+/* Táctil: el color no puede depender del cursor */
+@media (hover: none) {
+    .portrait img, .award img, .gallery img { filter: none; }
+    .spec > summary { padding: 11px 18px 11px 14px; }
 }
