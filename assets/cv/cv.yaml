@@ -12,6 +12,13 @@ cv:
 
   sections:
     educacion:
+      - institution: UDC · USC · CESGA
+        area: Máster en Computación de Altas Prestaciones (HPC)
+        location: A Coruña, Spain
+        start_date: 2026-09
+        end_date: present
+        highlights:
+          - "Máster interuniversitario de 60 ECTS: arquitecturas de altas prestaciones, programación paralela (OpenMP, MPI), arquitecturas heterogéneas (CUDA) y HPC en la nube, con prácticas sobre el supercomputador Finisterrae del CESGA."
       - institution: Universidade da Coruña
         area: Grado en Ciencia e Ingeniería de Datos
         location: A Coruña, Spain
@@ -22,11 +29,20 @@ cv:
           - "TFG con 10 (Matrícula de Honor): Optimización Computacional de ReliefF, estrategias basadas en búsqueda aproximada y prototipado."
 
     experiencia:
+      - company: Pull&Bear (Inditex)
+        position: Data & AI Engineer
+        location: A Coruña, Spain
+        start_date: 2026-09
+        end_date: present
+        highlights:
+          - Diseño e implementación de soluciones de datos e IA para el departamento de distribución.
+          - Agentes y automatizaciones end-to-end basados en LLMs para tareas del departamento.
+          - Modelado y exposición de datos en Snowflake y dashboards en Power BI para el seguimiento de indicadores clave, con versionado y despliegue en Azure DevOps.
       - company: Autónomo
         position: Desarrollador freelance
         location: A Coruña, Spain
         start_date: 2026-05
-        end_date: present
+        end_date: 2026-07
         highlights:
           - Diseño e implementación end-to-end de SGAR, producto propio que automatiza la gestión de recetas del Sergas en farmacia.
       - company: Cátedra Inditex-UDC de IA en Algoritmos Verdes
@@ -50,9 +66,9 @@ cv:
 
     habilidades:
       - label: Data Engineering & Cloud
-        details: Python, R, SQL, MongoDB, Docker, Git, Spark, AWS, GCP
+        details: Python, R, SQL, Snowflake, Power BI, MongoDB, Docker, Git, Spark, Azure DevOps, AWS, GCP
       - label: AI & Deep Learning
-        details: PyTorch, TensorFlow, Keras, Scikit-learn, Computer Vision, NLP
+        details: PyTorch, TensorFlow, Keras, Scikit-learn, Computer Vision, NLP, LLMs y agentes
       - label: HPC y Programación de Sistemas
         details: C, C++, Computación Paralela (OpenMP, MPI), CUDA
 
